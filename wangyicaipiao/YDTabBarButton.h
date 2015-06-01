@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  YDTabBarButton.h
 //  wangyicaipiao
 //
-//  Created by alyadan on 15/4/11.
+//  Created by alyadan on 15/4/16.
 //  Copyright (c) 2015年 alyadan. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YDTabBarButton : UIButton
 
 @end
-
