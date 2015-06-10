@@ -18,7 +18,7 @@
 @end
 
 @implementation YDSettingCell
-
+@synthesize item = _item;
 -(UIImageView *)cellImageView
 {
     if (_cellImageView == nil) {

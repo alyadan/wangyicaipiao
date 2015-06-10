@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YDSettingCell.h"
+@class YDSettingItem;
 
-@interface MainTableViewCell : UITableViewCell
+@interface MainTableViewCell : YDSettingCell
+@property (weak, nonatomic) IBOutlet UIImageView * myImageView;
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
+
+
+
+-(void)setup:(UIImage *)image text:(NSString *)text;
 
 @end

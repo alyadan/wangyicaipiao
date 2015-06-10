@@ -10,10 +10,15 @@
 @class YDSettingItem;
 
 
-@interface YDSettingCell : UITableViewCell
+@interface YDSettingCell : UITableViewCell{
+@protected
+    YDSettingItem *_item;
+}
+
 @property(nonatomic,strong)YDSettingItem *item;
 
 +(instancetype)cellWithTableView:(UITableView *)tableView indexPath:(NSIndexPath *)indexPath identifier:(NSString *)identifier;
 
+-(void)setupData;
 
 @end

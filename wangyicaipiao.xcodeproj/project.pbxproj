@@ -19,7 +19,6 @@
 		9A643F4D1AE4D73000627AA3 /* YDBuyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A643F4C1AE4D73000627AA3 /* YDBuyController.m */; };
 		9A643F521AE4DF3900627AA3 /* YDLoggingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A643F511AE4DF3900627AA3 /* YDLoggingViewController.m */; };
 		9A643F571AE4E8CC00627AA3 /* YDSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A643F561AE4E8CC00627AA3 /* YDSettingViewController.m */; };
-		9A6CD1111B16AF8B00483159 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6CD1101B16AF8B00483159 /* TableViewController.m */; };
 		9ABF4FDA1ADF4B6E00CCB5BF /* YDTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF4FD91ADF4B6E00CCB5BF /* YDTabBarButton.m */; };
 		9ABF4FDD1ADF52AC00CCB5BF /* YDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF4FDC1ADF52AC00CCB5BF /* YDNavigationController.m */; };
 		9AD2B6311B16CA99005EB22A /* KaiJiangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD2B6301B16CA99005EB22A /* KaiJiangViewController.m */; };
@@ -71,6 +70,8 @@
 		9AE031121B1974CE0000D343 /* x3d_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 9AE030F51B1974CE0000D343 /* x3d_howto.html */; };
 		9AE031131B1974CE0000D343 /* y11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = 9AE030F61B1974CE0000D343 /* y11_howto.html */; };
 		9AE031141B1974CE0000D343 /* znzh.html in Resources */ = {isa = PBXBuildFile; fileRef = 9AE030F71B1974CE0000D343 /* znzh.html */; };
+		9AE7432F1B280A9E00E79D0E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7432E1B280A9E00E79D0E /* TableViewController.m */; };
+		9AE743331B280FBC00E79D0E /* HallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE743321B280FBC00E79D0E /* HallViewController.m */; };
 		9AF5A02D1B187359005B1E5E /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5A02C1B187359005B1E5E /* HelpViewController.m */; };
 		9AF5A0321B1875D9005B1E5E /* Html.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5A0311B1875D9005B1E5E /* Html.m */; };
 		9AF5A0341B187601005B1E5E /* help.json in Resources */ = {isa = PBXBuildFile; fileRef = 9AF5A0331B187601005B1E5E /* help.json */; };
@@ -109,8 +110,6 @@
 		9A643F511AE4DF3900627AA3 /* YDLoggingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDLoggingViewController.m; sourceTree = "<group>"; };
 		9A643F551AE4E8CC00627AA3 /* YDSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSettingViewController.h; sourceTree = "<group>"; };
 		9A643F561AE4E8CC00627AA3 /* YDSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSettingViewController.m; sourceTree = "<group>"; };
-		9A6CD10F1B16AF8B00483159 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		9A6CD1101B16AF8B00483159 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		9ABF4FD81ADF4B6E00CCB5BF /* YDTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDTabBarButton.h; sourceTree = "<group>"; };
 		9ABF4FD91ADF4B6E00CCB5BF /* YDTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDTabBarButton.m; sourceTree = "<group>"; };
 		9ABF4FDB1ADF52AC00CCB5BF /* YDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDNavigationController.h; sourceTree = "<group>"; };
@@ -181,6 +180,10 @@
 		9AE030F51B1974CE0000D343 /* x3d_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = x3d_howto.html; sourceTree = "<group>"; };
 		9AE030F61B1974CE0000D343 /* y11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = y11_howto.html; sourceTree = "<group>"; };
 		9AE030F71B1974CE0000D343 /* znzh.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = znzh.html; sourceTree = "<group>"; };
+		9AE7432D1B280A9E00E79D0E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		9AE7432E1B280A9E00E79D0E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		9AE743311B280FBC00E79D0E /* HallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HallViewController.h; sourceTree = "<group>"; };
+		9AE743321B280FBC00E79D0E /* HallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HallViewController.m; sourceTree = "<group>"; };
 		9AF5A02B1B187359005B1E5E /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
 		9AF5A02C1B187359005B1E5E /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
 		9AF5A0301B1875D9005B1E5E /* Html.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Html.h; sourceTree = "<group>"; };
@@ -227,6 +230,7 @@
 		9A0D52EC1AD8EE6C00943C7A /* wangyicaipiao */ = {
 			isa = PBXGroup;
 			children = (
+				9AE743301B280F8500E79D0E /* hall */,
 				9A643F531AE4E8A800627AA3 /* Setting */,
 				9A643F4E1AE4DEFC00627AA3 /* Mine */,
 				9A643F451AE4CC1A00627AA3 /* Buy */,
@@ -347,8 +351,8 @@
 				9A643F561AE4E8CC00627AA3 /* YDSettingViewController.m */,
 				9AD2B62F1B16CA99005EB22A /* KaiJiangViewController.h */,
 				9AD2B6301B16CA99005EB22A /* KaiJiangViewController.m */,
-				9A6CD10F1B16AF8B00483159 /* TableViewController.h */,
-				9A6CD1101B16AF8B00483159 /* TableViewController.m */,
+				9AE7432D1B280A9E00E79D0E /* TableViewController.h */,
+				9AE7432E1B280A9E00E79D0E /* TableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -407,9 +411,6 @@
 				9ABF4FD91ADF4B6E00CCB5BF /* YDTabBarButton.m */,
 				9AD8AAEA1ADCE3F30044F68E /* YDTabBar.h */,
 				9AD8AAEB1ADCE3F30044F68E /* YDTabBar.m */,
-				9AD8CA031B1C75D100CF0108 /* MainTableViewCell.h */,
-				9AD8CA041B1C75D100CF0108 /* MainTableViewCell.m */,
-				9AD8CA051B1C75D100CF0108 /* MainTableViewCell.xib */,
 			);
 			name = VIew;
 			sourceTree = "<group>";
@@ -504,6 +505,18 @@
 				9AE030F71B1974CE0000D343 /* znzh.html */,
 			);
 			path = Html;
+			sourceTree = "<group>";
+		};
+		9AE743301B280F8500E79D0E /* hall */ = {
+			isa = PBXGroup;
+			children = (
+				9AD8CA031B1C75D100CF0108 /* MainTableViewCell.h */,
+				9AD8CA041B1C75D100CF0108 /* MainTableViewCell.m */,
+				9AD8CA051B1C75D100CF0108 /* MainTableViewCell.xib */,
+				9AE743311B280FBC00E79D0E /* HallViewController.h */,
+				9AE743321B280FBC00E79D0E /* HallViewController.m */,
+			);
+			name = hall;
 			sourceTree = "<group>";
 		};
 		9AF5A0281B186A99005B1E5E /* Product */ = {
@@ -720,16 +733,17 @@
 				9ADF873A1AF38F4D00DDEB7C /* YDBaseViewController.m in Sources */,
 				9AF5A0321B1875D9005B1E5E /* Html.m in Sources */,
 				9AD2B6311B16CA99005EB22A /* KaiJiangViewController.m in Sources */,
+				9AE743331B280FBC00E79D0E /* HallViewController.m in Sources */,
 				9A643F4D1AE4D73000627AA3 /* YDBuyController.m in Sources */,
 				9ABF4FDD1ADF52AC00CCB5BF /* YDNavigationController.m in Sources */,
 				9AD8224E1B1B463500790E1F /* AstrologyButton.m in Sources */,
-				9A6CD1111B16AF8B00483159 /* TableViewController.m in Sources */,
 				9ADFE1231AE641A900FA9C29 /* YDSettingSwitchItem.m in Sources */,
 				9ADBF0E31B1ACAC700F2FFD2 /* LuckyViewController.m in Sources */,
 				9A0D52F01AD8EE6C00943C7A /* main.m in Sources */,
 				9ADFE10F1AE61A3E00FA9C29 /* PushNoticeViewController.m in Sources */,
 				9AF5A02D1B187359005B1E5E /* HelpViewController.m in Sources */,
 				9A643F521AE4DF3900627AA3 /* YDLoggingViewController.m in Sources */,
+				9AE7432F1B280A9E00E79D0E /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

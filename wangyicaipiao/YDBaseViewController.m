@@ -14,6 +14,7 @@
 
 
 
+
 @interface YDBaseViewController ()
 
 
@@ -67,7 +68,9 @@
     YDSettingCell *cell = [YDSettingCell cellWithTableView:tableView indexPath:indexPath identifier:self.identifier ];
     YDSettingGroup *group = self.data[indexPath.section];
     YDSettingItem *item = group.items[indexPath.row];
+ 
     cell.item = item;
+    
     return cell;
 }
 

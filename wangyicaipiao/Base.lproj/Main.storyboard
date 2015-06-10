@@ -95,42 +95,6 @@
             </objects>
             <point key="canvasLocation" x="451.19999999999999" y="1194.6933333333334"/>
         </scene>
-        <!--购彩大厅-->
-        <scene sceneID="7pJ-GP-TWO">
-            <objects>
-                <viewController id="nLE-Me-soH" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gZd-0j-ixP">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iTB-eu-lZV">
-                                <rect key="frame" x="172" y="283" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="购彩大厅" id="WD8-6R-XzH">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="TLa-w8-Eev">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AZS-W6-GBp">
-                                <rect key="frame" x="234" y="11" width="80" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
-                                <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                <state key="normal" title="资讯" image="zixunBarFlat"/>
-                            </button>
-                        </barButtonItem>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fZh-gJ-XkY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="794" y="-444.99999999999994"/>
-        </scene>
         <!--Item-->
         <scene sceneID="fFn-1D-6gw">
             <objects>
@@ -141,12 +105,39 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="nLE-Me-soH" kind="relationship" relationship="rootViewController" id="2AH-Jt-Jpn"/>
+                        <segue destination="93T-Cu-ecI" kind="relationship" relationship="rootViewController" id="UlA-Ql-iPX"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uia-aN-xQ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="347.73333333333335" y="-444.93333333333317"/>
+        </scene>
+        <!--购彩大厅-->
+        <scene sceneID="jFE-U7-BCg">
+            <objects>
+                <tableViewController id="93T-Cu-ecI" customClass="HallViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="FEp-N6-Pox">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="diw-pH-A3k">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="diw-pH-A3k" id="mnG-on-91f">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="93T-Cu-ecI" id="Et2-hW-ECP"/>
+                            <outlet property="delegate" destination="93T-Cu-ecI" id="2nV-hr-5px"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="购彩大厅" id="1pl-sg-MSe"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vqu-3h-oty" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="788" y="-445"/>
         </scene>
         <!--Buy Controller-->
         <scene sceneID="IOG-MP-FlM">
@@ -351,7 +342,6 @@
         <image name="LuckyBackground" width="640" height="912"/>
         <image name="LuckyThreeButton" width="180" height="82"/>
         <image name="YellowDownArrow" width="16" height="16"/>
-        <image name="zixunBarFlat" width="13" height="11"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
